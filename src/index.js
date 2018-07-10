@@ -13,6 +13,7 @@ import Contact from './components/contact';
 import App from './components/app';
 import FindTrip from './components/findTrip';
 import AddTrip from './components/addTrip';
+import NoMatch from './components/noMatch';
 
 const createStoreWithMiddleware = applyMiddleware(promise)(createStore);
 
@@ -26,7 +27,8 @@ ReactDOM.render(
           <Route path="/find-trip" component={FindTrip} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
-          <Route path="/" component={App} />
+          <Route exact path="/" component={App} />
+          <Route path="*" component={NoMatch} />
         </Switch>
         <Footer />
       </div>

@@ -19,7 +19,7 @@ export default class Contact extends Component {
                                                 West Bengal,<br />
                                                 PIN: 700039<br />
 
-                                                <span className="fa-fw select-all fas"></span>&nbsp;<a href="tel:+919477512660">+91 947 751 2660</a><br />
+                                                <span className="fa-fw select-all fas"></span>&nbsp;<a href="tel:+919477512660">+91 9477 512 660</a><br />
                                                 <span className="fa-fw select-all fas"></span>&nbsp;<a href="mailto:query@tripaider.in">query@tripaider.in</a><br />
                                             </address>
                                         </div>
