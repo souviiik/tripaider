@@ -1,0 +1,82 @@
+.hero {
+    background: linear-gradient( rgba(17, 18, 18, 0.50), rgba(17, 18, 18, 0.50)), url('../images/background.jpg') center/cover;
+    /* image link : https://www.pexels.com/photo/gray-car-on-long-winding-road-104336/ */
+}
+
+.hero-head,
+.action-box {
+    /*position: relative;
+    animation-name: animate-elements;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;*/
+}
+
+.site-title,
+.business-name {
+    font-family: 'Galada', cursive;
+    letter-spacing: -1px;
+}
+
+.business-name {
+    font-weight: 100;
+}
+
+.site-subtitle, .site-footer {
+    letter-spacing: 3px;
+}
+
+.spacer {
+    margin-bottom: 30px;
+}
+
+.button.is-warning.is-outlined {
+    border-color: #fff;
+    color: #fff;
+}
+
+.button.is-warning.is-outlined:hover {
+    background: #fff;
+    border-color: #fff;
+}
+
+.footer-links > li {
+    display: inline-block;
+}
+
+.footer-links > li::after {
+    content: ' |';
+}
+
+body > div > div > div.hero-foot.section > div > div > div.column.left > ul > li > a {
+    margin-left: 6px;
+}
+
+.footer-links > li:last-child::after {
+    content: '';
+}
+
+.hero-foot {
+    border-top: 1px dashed rgba(235, 235, 235, 0.15);
+}
+
+.semi-transparent-background {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.page-heading {
+    border-bottom: 1px dashed rgba(235, 235, 235, 0.15);
+    padding-bottom: 1rem
+}
+
+address {
+    font-style: normal;
+}
+
+@keyframes animate-elements {
+    0% {
+        top: -150px;
+    }
+    100% {
+        top: 0px;
+    }
+}
