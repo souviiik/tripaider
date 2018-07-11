@@ -11,9 +11,9 @@ import Footer from './components/footer';
 import About from './components/about';
 import Contact from './components/contact';
 import App from './components/app';
-import FindTrip from './components/findTrip';
-import AddTrip from './components/addTrip';
-import NoMatch from './components/noMatch';
+import FindTrip from './components/find-trip';
+import AddTrip from './components/add-trip';
+import NoMatch from './components/no-match';
 
 const createStoreWithMiddleware = applyMiddleware(promise)(createStore);
 

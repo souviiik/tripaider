@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import AddTrip from './addTrip';
-import FindTrip from './findTrip';
+import AddTrip from './add-trip';
+import FindTrip from './find-trip';
 
 export default class App extends Component {
   render() {
