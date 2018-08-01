@@ -2,11 +2,16 @@ import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import AddTrip from './add-trip';
 import FindTrip from './find-trip';
+import { Helmet } from "react-helmet";
 
 export default class App extends Component {
   render() {
     return (
       <div className="hero-body">
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>tripaider | your personal travel buddy</title>
+        </Helmet>
         <div className="container">
           <div className="columns">
             <div className="column">

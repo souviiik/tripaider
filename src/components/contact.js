@@ -1,9 +1,14 @@
 import React, { Component } from 'react';
+import { Helmet } from "react-helmet";
 
 export default class Contact extends Component {
     render() {
         return (
             <div className="hero-body">
+                <Helmet>
+                    <meta charSet="utf-8" />
+                    <title>tripaider | contact us</title>
+                </Helmet>
                 <div className="container">
                     <div className="columns">
                         <div className="column">

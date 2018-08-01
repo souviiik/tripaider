@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import { Helmet } from "react-helmet";
 
 import ExactDays from './exact-days';
 import FlexDays from './flex-days';
@@ -22,7 +23,7 @@ export default class AddTrip extends Component {
 
     handleClick = (e) => {
         e.preventDefault();
-        console.log(this.state.tripType);
+        console.log(this.state);
     }
 
     render() {
@@ -30,6 +31,10 @@ export default class AddTrip extends Component {
 
         return (
             <div className="hero-body">
+                <Helmet>
+                    <meta charSet="utf-8" />
+                    <title>tripaider | add trip</title>
+                </Helmet>
                 <div className="container">
                     <div className="columns is-centered">
                         <div className="column is-two-thirds">
