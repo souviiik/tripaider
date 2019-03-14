@@ -10,6 +10,7 @@ import Header from './components/header';
 import Footer from './components/footer';
 import About from './components/about';
 import Contact from './components/contact';
+import ComingSoon from './components/coming-soon';
 import App from './components/app';
 import FindTrip from './components/find-trip';
 import AddTrip from './components/add-trip';
@@ -27,7 +28,8 @@ ReactDOM.render(
           <Route path="/find-trip" component={FindTrip} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
-          <Route exact path="/" component={App} />
+   <Route path="/coming-soon" component={ComingSoon} />
+       <Route exact path="/" component={ComingSoon} />
           <Route path="*" component={NoMatch} />
         </Switch>
         <Footer />
